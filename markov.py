@@ -23,7 +23,7 @@ def open_and_read_file(file_path):
         seuss_word = word.rstrip()
         dr_seuss_word = seuss_word.strip(" ")
         long_string += dr_seuss_word + " "
-    
+    print(type(long_string))
     return long_string
 
 
@@ -65,8 +65,18 @@ def make_chains(text_string):
     chains = {}
 
     # your code goes here
+    # new_list = list(text_string)
+    # for thing in text_string:
+    #     new_list.append(thing)
+    # print(new_list)
 
-    return chains
+
+    # for word1, word2, word3 in text_string:
+    #     key_tuple = (word1, word2)
+    #     chains[key_tuple] = word3
+    # print(chains)
+
+    #return chains
 
 
 def make_text(chains):
